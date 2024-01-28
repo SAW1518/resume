@@ -1,13 +1,8 @@
-import './App.css';
-
+import { Home } from 'src/pages';
+import './App.css'
 
 function App() {
-  return (
-    <div className='container'>
-      
-
-    </div>
-  )
+  return <Home />
 }
 
 export default App
