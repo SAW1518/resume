@@ -4,4 +4,51 @@
     color: rgb(255 255 255);
     padding: 2rem;
   }
-    
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: red;
+  }
+
+
+  .hero-name {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .hero-subTitle {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem; /* 28px */
+    margin-top: 0.5rem;
+  }
+
+  .hero-skills {
+    margin-top: 0.5rem;
+  }
+
+  .hero-social {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .hero-socia-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; 
+    gap: .5rem;
+  }
+
+  .hero-socia-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .hero-socia-button {
+    all: unset;
+  }
